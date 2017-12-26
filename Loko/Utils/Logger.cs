@@ -9,7 +9,7 @@ namespace Loko.Utils
 {
     public static class Logger
     {
-        public static string appPath = System.IO.Directory.GetCurrentDirectory();
+        public static string appPath = Directory.GetCurrentDirectory();
         public static string logPath = Path.Combine(appPath, "logs");
 
         /// <summary>
