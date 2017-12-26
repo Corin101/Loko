@@ -24,8 +24,8 @@ namespace Loko.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
-
+            // ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = Utils.Config.SqlServer;
             return View();
         }
 
